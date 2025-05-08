@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>MobileWorldStation</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo">
+      <img src="Assets/logo.png" alt="Mobile World Station Logo">
+    </div>
+    <nav class="nav-bar">
+      <button class="menu-toggle" onclick="toggleMenu()">☰ Mobile World Station</button>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search for products..." />
+      <button>Search</button>
+    </div>
+  </header>
+
+  <!-- Call-to-Action Section -->
+  <section class="cta">
+    <h1>Welcome to Mobile World Station</h1>
+    <p>Your one-stop shop for the latest phones and accessories.</p>
+    <a href="products.html" class="cta-button">Shop Now</a>
+  </section>
+
+  <!-- Featured Products Section -->
+  <section class="featured-products">
+    <h2>Best-Selling Phones</h2>
+    <div class="product-container">
+      <div class="product-card">
+        <a href="product.html?product=iphone13promax">
+          <img src="Assets/iphone13promax.avif" alt="Phone 1">
+        </a>
+        <h3>iPhone 13 Pro Max 256GB Black</h3>
+        <p>£330</p>
+      </div>
+      <div class="product-card">
+        <a href="product.html?product=iphone15">
+          <img src="Assets/iphone15.avif" alt="Phone 2">
+        </a>
+        <h3>iPhone 15 128 GB Black</h3>
+        <p>£464</p>
+      </div>
+      <div class="product-card">
+        <a href="product.html?product=iphone16promax">
+          <img src="Assets/iphone16promax.avif" alt="Phone 3">
+        </a>
+        <h3>iPhone 16 Pro Max 256GB Desert Titanium</h3>
+        <p>£887</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Limited-Time Deals Section -->
+  <section class="limited-deals">
+    <h2>Limited-Time Deals</h2>
+    <div class="deal-container">
+      <div class="deal-card">
+        <a href="product.html?product=phonecaseiphone11">
+          <img src="Assets/phonecaseiphone11.avif" alt="Deal 1">
+        </a>
+        <h3>Case iPhone 11</h3>
+        <p>Now £19.99</p>
+      </div>
+      <div class="deal-card">
+        <a href="product.html?product=wirelesscharger">
+          <img src="Assets/wirelesscharger.jpeg" alt="Deal 2">
+        </a>
+        <h3>Wireless Charger</h3>
+        <p>£18.99</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- New Arrivals Section -->
+  <section class="new-arrivals">
+    <h2>New Arrivals</h2>
+    <div class="product-container">
+      <div class="product-card">
+        <a href="product.html?product=samsungs24ultra">
+          <img src="Assets/samsungs24ultra.avif" alt="New Phone 1">
+        </a>
+        <h3>Galaxy S24 Ultra 256GB Black</h3>
+        <p>£556.00</p>
+      </div>
+      <div class="product-card">
+        <a href="product.html?product=iphone16promax">
+          <img src="Assets/iphone16promax.avif" alt="New Phone 2">
+        </a>
+        <h3>iPhone 16 Pro Max 256GB Desert Titanium</h3>
+        <p>£887</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>&copy; 2025 MobileWorldStation. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('.menu');
+      menu.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>

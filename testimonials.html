@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonials - MobileWorldStation</title>
+  <link rel="stylesheet" href="testimonials.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="nav-bar">
+    <button class="menu-toggle" onclick="toggleMenu()">☰ Mobile World Station</button>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h1>What Our Customers Say</h1>
+    <div class="testimonial-container">
+      <div class="testimonial-card">
+        <p>"The service was excellent! I received my phone in perfect condition and on time."</p>
+        <h3>- John Doe</h3>
+      </div>
+      <div class="testimonial-card">
+        <p>"Great prices and amazing customer support. Highly recommend Mobile World Station!"</p>
+        <h3>- Jane Smith</h3>
+      </div>
+      <div class="testimonial-card">
+        <p>"I love the variety of accessories available. The quality is top-notch!"</p>
+        <h3>- Emily Johnson</h3>
+      </div>
+      <div class="testimonial-card">
+        <p>"Fast delivery and great deals. I’ll definitely shop here again."</p>
+        <h3>- Michael Brown</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2025 MobileWorldStation. All rights reserved.</p>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('.menu');
+      menu.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
